@@ -1,3 +1,6 @@
+/*
+I wrote a program to find the type of triangle, when the sides of triangle are given.
+*/
 #include <stdio.h>
 int main(){
 	int a,b,c,s;

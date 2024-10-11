@@ -1,4 +1,4 @@
-/*I wrote a program to calculate marks and grade after a semester for my seniors curriculum*/
+/*I wrote a program to calculate marks and grade after a semester for my senior's curriculum*/
 #include <stdio.h>
 int main(){
 	int min1,min2,minfinal,assign1,assign2,assignfinal,mse1,mse2,msefinal,ese,finalmarks;

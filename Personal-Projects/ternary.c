@@ -16,7 +16,7 @@ int main() {
         	(score>=80 && score <90) ? 'B':
         	(score>=70 && score<80) ? 'c':
         	(score>=60 && score<70) ? 'D':
-        	(score<=50 && score>40) ? 'E': 'F'  ;
+        	(score>=50 && score<40) ? 'E': 'F'  ;
 
     printf("The student's grade is: %c\n", grade);
 

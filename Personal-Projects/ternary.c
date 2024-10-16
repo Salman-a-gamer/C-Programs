@@ -12,16 +12,14 @@ int main() {
     scanf("%d", &score);
 
 
-    if (score < 0 || score > 100) {
-        printf("Invalid score! Please enter a score between 0 and 100.\n");
-        return 1; 
-    }
+    grade = (score>90 && score<=100) ? 'A':
+        	(score>80 && score <=90) ? 'B':
+        	(score>70 && score<=80) ? 'c':
+        	(score>60 && score<=70) ? 'D':
+        	(score<60 && score>40) ? 'E': 'F'  ;
 
-    grade = (score >= 90) ? 'A' :
-            (score >= 80) ? 'B' :
-            (score >= 70) ? 'C' :
-            (score >= 60) ? 'D' : 'F';
     printf("The student's grade is: %c\n", grade);
 
-    return 0; 
+    return 0;
 }
+

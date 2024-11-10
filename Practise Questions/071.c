@@ -1,3 +1,4 @@
+/* Program to calculate the Median for the given values after sorting*/
 #include <stdio.h>
 void main(){
 	int i, size, median,temp,m1,m2;
